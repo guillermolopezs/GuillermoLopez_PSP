@@ -1,0 +1,31 @@
+jugadores = [('BROKENBLADE','G2','TOP'),('YIKE','G2','JUNGLE'),('CAPS','G2','MID'),('HANS SAMA','G2','ADC'),('MYKIX','G2','SUPPORT'),
+                 ('OSCARININ','FNATIC','TOP'),('RAZORK','FNATIC','JUNGLE'),('HUMANOID','FNATIC','MID'),('REKKLES','FNATIC','ADC'),('ADVIENNE','FNATIC','SUPPORT'),
+                 ('SZYGENDA','KOI','TOP'),('MALRANG','KOI','JUNGLE'),('LARSENN','KOI','MID'),('COMP','KOI','ADC'),('TRYMBI','KOI','SUPPORT'),
+                 ('ODOAMNE','EXCEL','TOP'),('XERXE','EXCEL','JUNGLE'),('VETHEO','EXCEL','MID'),('PATRIK','EXCEL','ADC'),('LIMIT','EXCEL','SUPPORT'),
+                 ('EVI','HERETICS','TOP'),('JANKOS','HERETICS','JUNGLE'),('RUBY','HERETICS','MID'),('JACKSPEKTRA','HERETICS','ADC'),('MERSA','HERETICS','SUPPORT'),
+                 ('ADAM','BDS','TOP'),('SHEO','BDS','JUNGLE'),('NUC','BDS','MID'),('CROWNIE','BDS','ADC'),('LABROV','BDS','SUPPORT'),
+                 ('CHASY','MAD LIONS','TOP'),('ELYOYA','MAD LIONS','JUNGLE'),('NISQY','MAD LIONS','MID'),('CARZZY','MAD LIONS','ADC'),('HYLISSANG','MAD LIONS','SUPPORT'),
+                 ('PHOTON','VITALITY','TOP'),('BO','VITALITY','JUNGLE'),('PERKZ','VITALITY','MID'),('UPSET','VITALITY','ADC'),('KAISER','VITALITY','SUPPORT'),
+                 ('IRRELEVANT','SK GAMING','TOP'),('MARKOON','SK GAMING','JUNGLE'),('SERTUSS','SK GAMING','MID'),('EXAKICK','SK GAMING','ADC'),('DOSS','SK GAMING','SUPPORT'),
+                 ('FINN','ASTRALIS','TOP'),('113','ASTRALIS','JUNGLE'),('LIDER','ASTRALIS','MID'),('KOBBE','ASTRALIS','ADC'),('JEONGHOON','ASTRALIS','SUPPORT'),
+                 ]
+
+equipos = [('G2',0,0),
+               ('KOI',0,0),
+               ('HERETICS',0,0),
+               ('BDS',0,0),
+               ('VITALITY',0,0),
+               ('SK GAMING',0,0),
+               ('MAD LIONS',0,0),
+               ('FNATIC',0,0),
+               ('ASTRALIS',0,0),
+               ('EXCEL',0,0),]
+
+positions = [('TOP',),
+                 ('JUNGLE',),
+                 ('MID',),
+                 ('ADC',),
+                 ('SUPPORT',)]
+
+
+

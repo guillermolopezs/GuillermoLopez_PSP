@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEADERBOARD</title>
+  </head>
+  <body>
+    <center>
+      <h1>LEADERBOARD</h1>
+      <br />
+      <table border="1">
+        <tr>
+          <td><b>TEAM</b></td>
+          <td><b>WINS</b></td>
+          <td><b>DEFEATS</b></td>
+        </tr>
+        {% for team in tabla %}
+        <tr>
+          {% for item in team%}
+          <td>{{item}}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </table>
+    </center>
+  </body>
+</html>

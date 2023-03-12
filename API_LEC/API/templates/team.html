@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{name}}</title>
+  </head>
+  <body>
+    <center>
+      <h1>STATS</h1>
+      <br />
+      <table border="1">
+        <tr>
+          <td><b>TEAM</b></td>
+          <td><b>WINS</b></td>
+          <td><b>DEFEATS</b></td>
+        </tr>
+        <tr>
+          {% for i in team %}
+          <td>{{i}}</td>
+          {% endfor %}
+        </tr>
+      </table>
+      <br />
+      <h1>PLAYERS</h1>
+      <table border="1">
+        <tr>
+          <td><b>PLAYER</b></td>
+          <td><b>TEAM</b></td>
+          <td><b>POS</b></td>
+        </tr>
+        {% for player in players%}
+        <tr>
+          {% for item in player%}
+          <td>{{item}}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </table>
+    </center>
+  </body>
+</html>
